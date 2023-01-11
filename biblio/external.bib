@@ -676,3 +676,1250 @@ keywords = "Glass ceramic",
   month =        5,
   year =         2010,
 }
+
+
+
+
+
+%%% -------------------------------------------------------------------------------------------- %%%
+
+@inproceedings{Inoue2009,
+   abstract = {Abductive inference is an important AI reasoning technique to find explanations of observations, and has recently been applied to scientific discovery. To find best hypotheses among many logically possible hypotheses, we need to evaluate hypotheses obtained from the process of hypothesis generation. We propose an abductive inference architecture combined with an EM algorithm working on binary decision diagrams (BDDs). This work opens a way of applying BDDs to compress multiple hypotheses and to select most probable ones from them. An implemented system has been applied to inference of inhibition in metabolic pathways in the domain of systems biology.},
+   author = {Katsumi Inoue and Taisuke Sato and Masakazu Ishihata and Yoshitaka Kameya and Hidetomo Nabeshima},
+   issn = {10450823},
+   journal = {IJCAI International Joint Conference on Artificial Intelligence},
+   title = {Evaluating abductive hypotheses using an EM algorithm on BDDs},
+   year = {2009},
+}
+
+@inproceedings{TamaddoniNezhad2006,
+   abstract = {In this paper we use a logic-based representation and a combination of Abduction and Induction to model inhibition in metabolic networks. In general, the integration of abduction and induction is required when the following two conditions hold. Firstly, the given background knowledge is incomplete. Secondly, the problem must require the learning of general rules in the circumstance in which the hypothesis language is disjoint from the observation language. Both these conditions hold in the application considered in this paper. Inhibition is very important from the therapeutic point of view since many substances designed to be used as drugs can have an inhibitory effect on other enzymes. Any system able to predict the inhibitory effect of substances on the metabolic network would therefore be very useful in assessing the potential harmful side-effects of drugs. In modelling the phenomenon of inhibition in metabolic networks, background knowledge is used which describes the network topology and functional classes of inhibitors and enzymes. This background knowledge, which represents the present state of understanding, is incomplete. In order to overcome this incompleteness hypotheses are considered which consist of a mixture of specific inhibitions of enzymes (ground facts) together with general (non-ground) rules which predict classes of enzymes likely to be inhibited by the toxin. The foreground examples are derived from in vivo experiments involving NMR analysis of time-varying metabolite concentrations in rat urine following injections of toxins. The model's performance is evaluated on training and test sets randomly generated from a real metabolic network. It is shown that even in the case where the hypotheses are restricted to be ground, the predictive accuracy increases with the number of training examples and in all cases exceeds the default (majority class). Experimental results also suggest that when sufficient training data is provided, non-ground hypotheses show a better predictive accuracy than ground hypotheses. The model is also evaluated in terms of the biological insight that it provides.},
+   author = {Alireza Tamaddoni-Nezhad and Raphael Chaleil and Antonis Kakas and Stephen Muggleton},
+   doi = {10.1007/s10994-006-8988-x},
+   issn = {08856125},
+   issue = {1-3},
+   journal = {Machine Learning},
+   title = {Application of abductive ILP to learning metabolic network inhibition from temporal data},
+   volume = {64},
+   year = {2006},
+}
+@article{King2011,
+   abstract = {The reuse of scientific knowledge obtained from one investigation in another investigation is basic to the advance of science. Scientific investigations should therefore be recorded in ways that promote the reuse of the knowledge they generate. The use of logical formalisms to describe scientific knowledge has potential advantages in facilitating such reuse. Here, we propose a formal framework for using logical formalisms to promote reuse. We demonstrate the utility of this framework by using it in a worked example from biology: demonstrating cycles of investigation formalization [F] and reuse [R] to generate new knowledge.We first used logic to formally describe a Robot scientist investigation into yeast (Saccharomyces cerevisiae) functional genomics [f1]. With Robot scientists, unlike human scientists, the production of comprehensive metadata about their investigations is a natural by-product of the way they work. We then demonstrated how this formalism enabled the reuse of the research in investigating yeast phenotypes [r1 = R(f1)]. This investigation found that the removal of non-essential enzymes generally resulted in enhanced growth. The phenotype investigation was then formally described using the same logical formalism as the functional genomics investigation [f2 = F(r1)]. We then demonstrated how this formalism enabled the reuse of the phenotype investigation to investigate yeast systems-biology modelling [r2 = R(f2)]. This investigation found that yeast flux-balance analysis models fail to predict the observed changes in growth. Finally, the systems biology investigation was formalized for reuse in future investigations [f3 = F(r 2)]. These cycles of reuse are a model for the general reuse of scientific knowledge. © 2011 The Royal Society.},
+   author = {Ross D. King and Maria Liakata and Chuan Lu and Stephen G. Oliver and Larisa N. Soldatova},
+   doi = {10.1098/rsif.2011.0029},
+   issn = {17425662},
+   issue = {63},
+   journal = {Journal of the Royal Society Interface},
+   title = {On the formalization and reuse of scientific research},
+   volume = {8},
+   year = {2011},
+}
+@article{Leone2006,
+   abstract = {Disjunctive Logic Programming (DLP) is an advanced formalism for knowledge representation and reasoning, which is very expressive in a precise mathematical sense: it allows one to express every property of finite structures that is decidable in the complexity class ∑ 2p (NP NP). Thus, under widely believed assumptions, DLP is strictly more expressive than normal (disjunction-free) logic programming, whose expressiveness is limited to properties decidable in NP. Importantly, apart from enlarging the class of applications which can be encoded in the language, disjunction often allows for representing problems of lower complexity in a simpler and more natural fashion. This article presents the DLV system, which is widely considered the state-of-the-art implementation of disjunctive logic programming, and addresses several aspects. As for problem solving, we provide a formal definition of its kernel language, function-free disjunctive logic programs (also known as disjunctive datalog), extended by weak constraints, which are a powerful tool to express optimization problems. We then illustrate the usage of DLV as a tool for knowledge representation and reasoning, describing a new declarative programming methodology which allows one to encode complex problems (up to Δ 33-complete problems) in a declarative fashion. On the foundational side, we provide a detailed analysis of the computational complexity of the language of DLV, and by deriving new complexity results we chart a complete picture of the complexity of this language and important fragments thereof. Furthermore, we illustrate the general architecture of the DLV system, which has been influenced by these results. As for applications, we overview application front-ends which have been developed on top of DLV to solve specific knowledge representation tasks, and we briefly describe the main international projects investigating the potential of the system for industrial exploitation. Finally, we report about thorough experimentation and benchmarking, which has been carried out to assess the efficiency of the system. The experimental results confirm the solidity of DLV and highlight its potential for emerging application areas like knowledge management and information integration. © 2006 ACM.},
+   author = {Nicola Leone and Gerald Pfeifer and Wolfgang Faber and Thomas Eiter and Georg Gottlob and Simona Perri and Francesco Scarcello},
+   doi = {10.1145/1149114.1149117},
+   issn = {15293785},
+   issue = {3},
+   journal = {ACM Transactions on Computational Logic},
+   title = {The DLV system for knowledge representation and reasoning},
+   volume = {7},
+   year = {2006},
+}
+@article{Ray2006,
+   abstract = {This paper presents a new system called ProLogICA for Abductive Logic Programming (ALP) with Negation as Failure (NAF) and Integrity Constraints (ICs). The system builds upon existing ALP techniques but includes several optimisations and extensions necessitated by recent applications in computational biology, temporal reasoning and machine learning. Unlike some other ALP systems that support non-ground abduction through the integrated use of constraint solving, we adopt a more lightweight approach which avoids this complexity at the expense of only computing ground hypotheses. We argue our approach is suited to a wide class of real-world problems and demonstrate the effectiveness of \ProLogICA\ on three non-trivial applications.},
+   author = {Oliver Ray and Antonis Kakas},
+   journal = {Workshop on Non-Monotonic Reasoning},
+   title = {ProLogICA: a practical system for Abductive Logic Programming},
+   year = {2006},
+}
+@article{Alferes2004,
+   abstract = {Abductive logic programming offers a formalism to declaratively express and solve problems in areas such as diagnosis, planning, belief revision and hypothetical reasoning. Tabled logic programming offers a computational mechanism that provides a level of declarativity superior to that of Prolog, and which has supported successful applications in fields such as parsing, program analysis, and model checking. In this paper we show how to use tabled logic programming to evaluate queries to abductive frameworks with integrity constraints when these frameworks contain both default and explicit negation. The result is the ability to compute abduction over well-founded semantics with explicit negation and answer sets. Our approach consists of a transformation and an evaluation method. The transformation adjoins to each objective literal O in a program, an objective literal not(O) along with rules that ensure that not(O) will be true if and only if O is false. We call the resulting program a dual program. The evaluation method, ABDUAL, then operates on the dual program. ABDUAL is sound and complete for evaluating queries to abductive frameworks whose entailment method is based on either the well-founded semantics with explicit negation, or on answer sets. Further, ABDUAL is asymptotically as efficient as any known method for either class of problems. In addition, when abduction is not desired, ABDUAL operating on a dual program provides a novel tabling method for evaluating queries to ground extended programs whose complexity and termination properties are similar to those of the best tabling methods for the well-founded semantics. A publicly available meta-interpreter has been developed for ABDUAL using the XSB system.},
+   author = {José Júlio Alferes and Luís Moniz Pereira and Terrance Swift},
+   doi = {10.1017/S1471068403001960},
+   issn = {14710684},
+   issue = {4},
+   journal = {Theory and Practice of Logic Programming},
+   title = {Abduction in well-founded semantics and generalized stable models via tabled dual programs},
+   volume = {4},
+   year = {2004},
+}
+@inproceedings{Nuffelen2001,
+   author = {Bert Van Nuffelen and Antonis Kakas},
+   doi = {10.1007/3-540-45402-0_29},
+   issn = {03029743},
+   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+   title = {A-system: Declarative programming with abduction},
+   volume = {2173 LNAI},
+   year = {2001},
+}
+@article{Kakas2000,
+   abstract = {This paper presents the framework of Abductive Constraint Logic Programming (ACLP), which integrates Abductive Logic Programming (ALP) and Constraint Logic Programming (CLP). In ACLP, the task of abduction is supported and enhanced by its non-trivial integration with constraint solving. This integration of constraint solving into abductive reasoning facilitates a general form of constructive abduction and enables the application of abduction to computationally demanding problems. The paper studies the formal declarative and operational semantics of the ACLP framework together with its application to various problems. The general characteristics of the computation of ACLP and of its application to problems are also discussed. Empirical results based on an implementation of the ACLP framework on top of the CLP language of ECLiPSe show that ACLP is computationally viable, with performance comparable to the underlying CLP framework on which it is built. In addition, our experiments show the natural ability for ACLP to accommodate easily and in a robust way new or changing requirements of the original problem. ACLP thus combines the advantages of modularity and flexibility of the high-level representation afforded by abduction together with the computational effectiveness of low-level specialised constraint solving.},
+   author = {A. C. Kakas and A. Michael and C. Mourlas},
+   doi = {10.1016/S0743-1066(99)00075-8},
+   issn = {07431066},
+   issue = {1-3},
+   journal = {Journal of Logic Programming},
+   title = {ACLP: Abductive Constraint Logic Programming},
+   volume = {44},
+   year = {2000},
+}
+@article{Kakas1992,
+   abstract = {This paper is a survey and critical overview of recent work on the extension of logic programming to perform abductive reasoning (abductive logic programming). We outline the general framework of abduction and its applications to knowledge assimilation and default reasoning; and we introduce an argumentation-theoretic approach to the use of abduction as an interpretation for negation as failure. We also analyse the links between abduction and the extension of logic programming obtained by adding a form of explicit negation. Finally we discuss the relation between abduction and truth maintenance. © 1993 Oxford University Press.},
+   author = {A. C. Kakas and R. A. Kowalski and F. Toni},
+   doi = {10.1093/logcom/2.6.719},
+   issn = {0955792X},
+   issue = {6},
+   journal = {Journal of Logic and Computation},
+   title = {Abductive logic programming},
+   volume = {2},
+   year = {1992},
+}
+@inproceedings{Goncalves2012,
+   abstract = {The term 'hypothesis' is part of the Linked Science Core Vocabulary (LSC) as one of the core elements for making scientific assets explicit and linked in the web of data. Hypotheses are generally understood as propositions for explaining observed phenomena, but eliciting and linking hypotheses can be a challenge. In this paper, we elaborate on a semantic view on hypotheses and their linkage, by striving for minimal ontological commitments. We address the engineering of hypotheses as linked data, and build upon LSC by extending it in order to accommodate terms necessary in model-based sciences such as Computational Science. Then we instantiate the extended LSC by eliciting and linking hypotheses from a published research in Computational Hemodynamics.},
+   author = {Bernardo Gonçalves and Fabio Porto and Ana Maria C. Moura},
+   issn = {16130073},
+   journal = {CEUR Workshop Proceedings},
+   title = {On the semantic engineering of scientific hypotheses as linked data},
+   volume = {951},
+   year = {2012},
+}
+@article{Porto2011,
+   abstract = {New instruments and techniques used in capturing scientific data are exponentially increasing the volume of data consumed by insilico research, which has been usually referred to as data deluge. Once captured, scientific data goes through a cleaning workflow before getting ready for analysis that will eventually confirm the scientist's hypothesis. The whole process is, nevertheless, complex and takes the focus of thescientist's attention away from his/her research and towards solving the complexity associated with managing computing products. Moreover, as the research evolves, references to previous results and workflows are needed as source of provenance data. Based on these observations, we claim that in-silico experiments must be supported by a hypotheses data model that describes the elements involved in a scientific exploration and supports hypotheses assessment. Adopting a data perspective to represent hypotheses allow high-level references to experiments and provides support for hypotheses evolution. The data model drives the proposal of a data management system that would support scientists in describing, running simulations and interpreting their results. © 2011 Springer-Verlag Berlin Heidelberg.},
+   author = {Fabio Porto and Stefano Spaccapietra},
+   doi = {10.1007/978-3-642-17505-3_13},
+   issn = {03029743},
+   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+   title = {Data model for scientific models and hypotheses},
+   volume = {6520},
+   year = {2011},
+}
+@inproceedings{Goncalves2013,
+   abstract = {As the problems of interest in large-scale science are ever more complex or intertwined, scientists can benefit from machinery to manage hypotheses and their interconnection in the context of a large-scale research project. A partial order is assumed to model hypothesis interconnectivity, meaning that hypotheses may be 'based on or equal to' one another. Then we investigate lattices as a mathematical abstraction for representing and managing hypothesis-driven research. We present queries designed to exploit lattice-theoretic topological features of a hypothesis-driven research and then discuss their complexity.},
+   author = {Bernardo Gonçalves and Fabio Porto},
+   issn = {16130073},
+   journal = {CEUR Workshop Proceedings},
+   title = {A lattice-theoretic approach for representing and managing hypothesis-driven research},
+   volume = {1087},
+   year = {2013},
+}
+@article{Porto2015,
+   abstract = {Computational Simulations are important tools that enable scientists to study complex phenomena about which few data is available or that require dangerous human interventions. They involve complex and heterogeneous components, including: mathematical equations, hypothesis, computational models and data. In order to support in-silico scientific research this complex environment needs to be modeled and have its data and metadata managed enabling model evolution, prediction analysis and decision-making. This paper proposes a scientific hypothesis conceptual model that allows scientists to represent the phenomenon been investigated, the hypotheses formulated in the attempt to explain it, and provides the ability to store results of experiment simulations with their corresponding provenance metadata. The proposed model supports scientific life-cycle through: provenance management, exchange of hypothesis as data, experiment reproducibility, model steering and simulation result analyses. A cardiovascular numerical simulation illustrates the applicability of the model and an initial implementation using SciDB is discussed.},
+   author = {Fabio Porto and Ramon G. Costa and Ana Maria De C. Moura and Bernardo Gonçalves},
+   doi = {10.4018/JDM.2015040101},
+   issn = {15338010},
+   issue = {2},
+   journal = {Journal of Database Management},
+   title = {Modeling and implementing scientific hypothesis},
+   volume = {26},
+   year = {2015},
+}
+@article{Hempel1952,
+   abstract = {1964/1952. Foundations of the Unity of Science. Volume II, No. 7},
+   author = {C Hempel},
+   issue = {7},
+   journal = {International Encyclopedia of Unified Science},
+   title = {Fundamentals of Concept Formation in Empirical Science},
+   volume = {II},
+   year = {1952},
+}
+@article{Azorin1966,
+   abstract = {This text examines the fundamentals of solving a scientific research problem, focusing on the relationship between the problem and the research design. This edition includes new information about computer statistical software, multivariate statistics, research ethics, and writing research reports in APA style. This book is ideal for graduate students in that it covers statistics, research methodology, and measurement all in one volume. This is a book that graduate students will keep as a reference throughout their careers.},
+   author = {José Azorín and Fred N. Kerlinger},
+   doi = {10.2307/40180600},
+   issn = {00349429},
+   issue = {4},
+   journal = {Revista española de la opinión pública},
+   title = {Foundations of Behavioral Research. Educational and Psychological Inquiry},
+   year = {1966},
+}
+@book{Popper2005,
+   abstract = {Described by the philosopher A.J. Ayer as a work of ‘great originality and power’, this book revolutionized contemporary thinking on science and knowledge. Ideas such as the now legendary doctrine of ‘falsificationism’ electrified the scientific community, influencing even working scientists, as well as post-war philosophy. This astonishing work ranks alongside The Open Society and Its Enemies as one of Popper’s most enduring books and contains insights and arguments that demand to be read to this day.},
+   author = {Karl Popper},
+   doi = {10.4324/9780203994627},
+   journal = {The Logic of Scientific Discovery},
+   title = {The logic of scientific discovery},
+   year = {2005},
+}
+@article{Haber2009,
+   abstract = {A s you read each chapter remember that each step of the research process will be defined and discussed as to how that particular step relates to evidence-based practice. All research studies begin with questions and hypotheses. The first step of the evidence-based practice process also asks a question, but it is a clinical question. The research questions and hypotheses in a research study discussed in the beginning of this chapter have different purposes than the clinical questions found in an evidence-based practice project. In a research study the research question and hypothesis lead to the development of a research study; the clinical question in an evidence-based practice project is the first step in the development of an evidence-based practice},
+   author = {Judith Haber},
+   journal = {Nursing Research: : Methods and Critical Appraisal for Evidence-Based Practice},
+   title = {Chapter 2: Research Questions, Hypotheses and Clinical Questions},
+   year = {2009},
+}
+@article{Menzies1996,
+   abstract = {A single inference procedure (abduction) can operationalise a wide variety of knowledge-level modelling problem solving methods; i.e. prediction, classification, explanation, tutoring, qualitative reasoning, planning, monitoring, set-covering diagnosis, consistency-based diagnosis, validation, and verification. This abductive approach offers a uniform view of different problem solving methods in the style proposed by Clancey and Breuker. Also, this adbuctive approach is easily extensible to validation; i.e. using this technique we can implement both inference tools and testing tools. Further, abduction can execute in vague and conflicting domains (which we believe occur very frequently). We therefore propose abduction as a framework for knowledge-level modelling. © 1996 Academic Press Limited.},
+   author = {Tim Menzies},
+   doi = {10.1006/ijhc.1996.0054},
+   issn = {10715819},
+   issue = {3},
+   journal = {International Journal of Human Computer Studies},
+   title = {Applications of abduction: Knowledge-level modelling},
+   volume = {45},
+   year = {1996},
+}
+@book{Bacon2000,
+   abstract = {Chapter Contents: Plan of the work; The second part of the work: the New Organon or true directions for the interpretation of nature; Summary of the second part of the work, digested into aphorisms: Book I, Book II. When the New Organon appeared in 1620, part of a six-part programme of scientific inquiry entitled 'The Great Renewal of Learning', Francis Bacon was at the high point of his political career, and his ambitious work was groundbreaking in its attempt to give formal philosophical shape to a new and rapidly emerging experimentally-based science. Bacon combines theoretical scientific epistemology with examples from applied science, examining phenomena as various as magnetism, gravity, and the ebb and flow of the tides, and anticipating later experimental work by Robert Boyle and others. His work challenges the entire edifice of the philosophy and learning of his time, and has left its mark on all subsequent philosophical discussions of scientific method. This volume presents a new translation of the text into modern English by Michael Silverthorne, and an introduction by Lisa Jardine that sets the work in the context of Bacon's scientific and philosophical activities.},
+   author = {Francis Bacon},
+   doi = {10.1017/cbo9781139164030},
+   journal = {The New Organon},
+   title = {The New Organon},
+   year = {2000},
+}
+@book{Poincare2015,
+   abstract = {A member of the Académie française, Henri Poincaré (1854–1912) was one of the greatest mathematicians and theoretical physicists of the late nineteenth and early twentieth centuries. His discovery of chaotic motion laid the foundations of modern chaos theory, and he was acknowledged by Einstein as a key contributor in the field of special relativity. He earned his enduring reputation as a philosopher of mathematics and science with this elegantly written work, which was first published in French as three separate essays: Science and Hypothesis (1902), The Value of Science (1905), and Science and Method (1908). Poincaré asserts that much scientific work is a matter of convention, and that intuition and prediction play key roles. George Halsted's authorised 1913 English translation retains Poincaré's lucid prose style, presenting complex ideas for both professional scientists and those readers interested in the history of mathematics and the philosophy of science.},
+   author = {Henri Poincare and George Bruce Halsted and Josiah Royce},
+   doi = {10.1017/cbo9781107252950},
+   journal = {The Foundations of Science},
+   title = {The Foundations of Science},
+   year = {2015},
+}
+@book_section{McComas2005,
+   abstract = {The “myths of science” discussed here are commonly included in science textbooks, in classroom discourse and in the minds of adult Americans. These fifteen issues, described here as “myths of science,” do not represent all of the important issues that teachers should consider when designing instruction relative to the nature of science, but may serve as starting points for evaluating current instructional foci while enhancing future curriculum design. Misconceptions about science are most likely due to the lack of philosophy of science content in teacher education programs and the failure of such programs to provide real science research experiences for preservice teachers while another source of the problem may be the generally shallow treatment of the nature of science in the textbooks to which teachers might turn for guidance. Some of these myths, such as the idea that there is a scientific method, are most likely caused by the explicit inclusion of faulty ideas in textbooks while others, such as lack of knowledge of the social construction of scientific knowledge, are the result of omissions in texts.},
+   author = {William F. McComas},
+   doi = {10.1007/0-306-47215-5_3},
+   journal = {The Nature of Science in Science Education},
+   title = {The Principal Elements of the Nature of Science: Dispelling the Myths},
+   year = {2005},
+}
+
+@inproceedings{Hughes2017,
+   author = {James Alexander Hughes and Mark Daley},
+   city = {New York, NY, USA},
+   doi = {10.1145/3071178.3071209},
+   isbn = {9781450349208},
+   journal = {Proceedings of the Genetic and Evolutionary Computation Conference},
+   month = {7},
+   publisher = {ACM},
+   title = {Searching for nonlinear relationships in fMRI data with symbolic regression},
+   year = {2017},
+}
+@article{VanEssen2013,
+   author = {David C. Van Essen and Stephen M. Smith and Deanna M. Barch and Timothy E.J. Behrens and Essa Yacoub and Kamil Ugurbil},
+   doi = {10.1016/j.neuroimage.2013.05.041},
+   issn = {10538119},
+   journal = {NeuroImage},
+   month = {10},
+   title = {The WU-Minn Human Connectome Project: An overview},
+   volume = {80},
+   year = {2013},
+}
+@article{Arslan2018,
+   author = {Salim Arslan and Sofia Ira Ktena and Antonios Makropoulos and Emma C. Robinson and Daniel Rueckert and Sarah Parisot},
+   doi = {10.1016/j.neuroimage.2017.04.014},
+   issn = {10538119},
+   journal = {NeuroImage},
+   month = {4},
+   title = {Human brain mapping: A systematic comparison of parcellation methods for the human cerebral cortex},
+   volume = {170},
+   year = {2018},
+}
+@article{Desikan2006,
+   author = {Rahul S. Desikan and Florent Ségonne and Bruce Fischl and Brian T. Quinn and Bradford C. Dickerson and Deborah Blacker and Randy L. Buckner and Anders M. Dale and R. Paul Maguire and Bradley T. Hyman and Marilyn S. Albert and Ronald J. Killiany},
+   doi = {10.1016/j.neuroimage.2006.01.021},
+   issn = {10538119},
+   issue = {3},
+   journal = {NeuroImage},
+   month = {7},
+   title = {An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest},
+   volume = {31},
+   year = {2006},
+}
+@article{Gundersen2018,
+   abstract = {<p>Background: Science is experiencing a reproducibility crisis. Artificial intelligence research is not an exception. Objective: To give practical and pragmatic recommendations for how to document AI research so that the results are reproducible. Method: Our analysis of the literature shows that AI publications fall short of providing enough documentation to facilitate reproducibility. Our suggested best practices are based on a framework for reproducibility and recommendations given for other disciplines. Results: We have made an author checklist based on our investigation and provided examples for how every item in the checklist can be documented. Conclusion: We encourage reviewers to use the suggested best practices and author checklist when reviewing submissions for AAAI publications and future AAAI conferences.</p>},
+   author = {Odd Erik Gundersen and Yolanda Gil and David W. Aha},
+   doi = {10.1609/aimag.v39i3.2816},
+   issn = {2371-9621},
+   issue = {3},
+   journal = {AI Magazine},
+   month = {9},
+   title = {On Reproducible AI: Towards Reproducible Research, Open Science, and Digital Scholarship in AI Publications},
+   volume = {39},
+   year = {2018},
+}
+@book{Hey2009,
+   abstract = {Increasingly, scientific breakthroughs will be powered by advanced computing capabilities that help researchers manipulate and explore massive datasets.
+
+The speed at which any given scientific discipline advances will depend on how well its researchers collaborate with one another, and with technologists, in areas of eScience such as databases, workflow management, visualization, and cloud computing technologies.
+
+In The Fourth Paradigm: Data-Intensive Scientific Discovery, the collection of essays expands on the vision of pioneering computer scientist Jim Gray for a new, fourth paradigm of discovery based on data-intensive science and offers insights into how it can be fully realized.
+Critical praise for The Fourth Paradigm
+“The individual essays—and The Fourth Paradigm as a whole—give readers a glimpse of the horizon for 21st-century research and, at their best, a peek at what lies beyond. It’s a journey well worth taking.”
+— James P. Collins
+School of Life Sciences, Arizona State University
+
+Purchase from Amazon
+
+Paperback
+Kindle version
+
+From the back cover
+“The impact of Jim Gray’s thinking is continuing to get people to think in a new way about how data and software are redefining what it means to do science."
+— Bill Gates, Chairman, Microsoft Corporation
+
+“I often tell people working in eScience that they aren’t in this field because they are visionaries or super-intelligent—it’s because they care about science and they are alive now. It is about technology changing the world, and science taking advantage of it, to do more and do better.”
+— Rhys Francis, Australian eResearch Infrastructure Council
+
+“One of the greatest challenges for 21st-century science is how we respond to this new era of data-intensive science. This is recognized as a new paradigm beyond experimental and theoretical research and computer simulations of natural phenomena—one that requires new tools, techniques, and ways of working.”
+— Douglas Kell, University of Manchester
+
+“The contributing authors in this volume have done an extraordinary job of helping to refine an understanding of this new paradigm from a variety of disciplinary perspectives.”
+— Gordon Bell, Microsoft Research
+Microsoft Research is honored to provide initial website hosting for this book launch.},
+   author = {Tony Hey and Stewart Tansley and Kristin Tolle},
+   isbn = {978-0-9825442-0-4},
+   journal = {The Fourth Paradigm: Data-Intensive Scientific Discovery},
+   month = {10},
+   publisher = {Microsoft Research},
+   title = {The Fourth Paradigm: Data-Intensive Scientific Discovery},
+   url = {https://www.microsoft.com/en-us/research/publication/fourth-paradigm-data-intensive-scientific-discovery/},
+   year = {2009},
+}
+@article{Lamy2017,
+   author = {Jean-Baptiste Lamy},
+   doi = {10.1016/j.artmed.2017.07.002},
+   issn = {09333657},
+   journal = {Artificial Intelligence in Medicine},
+   month = {7},
+   title = {Owlready: Ontology-oriented programming in Python with automatic classification and high level constructs for biomedical ontologies},
+   volume = {80},
+   year = {2017},
+}
+@article{Poldrack2016,
+   abstract = {<p>A major goal of cognitive neuroscience is to delineate how brain systems give rise to mental function. Here we review the increasingly large role informatics-driven approaches are playing in such efforts. We begin by reviewing a number of challenges conventional neuroimaging approaches face in trying to delineate brain-cognition mappings—for example, the difficulty in establishing the specificity of postulated associations. Next, we demonstrate how these limitations can potentially be overcome using complementary approaches that emphasize large-scale analysis—including meta-analytic methods that synthesize hundreds or thousands of studies at a time; latent-variable approaches that seek to extract structure from data in a bottom-up manner; and predictive modeling approaches capable of quantitatively inferring mental states from patterns of brain activity. We highlight the underappreciated but critical role for formal cognitive ontologies in helping to clarify, refine, and test theories of brain and cognitive function. Finally, we conclude with a speculative discussion of what future informatics developments may hold for cognitive neuroscience.</p>},
+   author = {Russell A. Poldrack and Tal Yarkoni},
+   doi = {10.1146/annurev-psych-122414-033729},
+   issn = {0066-4308},
+   issue = {1},
+   journal = {Annual Review of Psychology},
+   month = {1},
+   title = {From Brain Maps to Cognitive Ontologies: Informatics and the Search for Mental Structure},
+   volume = {67},
+   year = {2016},
+}
+@article{Turner2010,
+   author = {Turner},
+   doi = {10.3389/fninf.2010.00010},
+   issn = {16625196},
+   journal = {Frontiers in Neuroinformatics},
+   title = {Application of neuroanatomical ontologies for neuroimaging data annotation},
+   year = {2010},
+}
+@article{Moreau2015,
+   author = {Tristan Moreau and Bernard Gibaud},
+   doi = {10.3389/fninf.2015.00009},
+   issn = {1662-5196},
+   journal = {Frontiers in Neuroinformatics},
+   month = {4},
+   title = {Ontology-based approach for in vivo human connectomics: the medial Brodmann area 6 case study},
+   volume = {9},
+   year = {2015},
+}
+@article{Friston2011,
+   author = {Karl J. Friston},
+   doi = {10.1089/brain.2011.0008},
+   issn = {2158-0014},
+   issue = {1},
+   journal = {Brain Connectivity},
+   month = {1},
+   title = {Functional and Effective Connectivity: A Review},
+   volume = {1},
+   year = {2011},
+}
+@book_section{Icke2014,
+   abstract = {Symbolic regression (SR) is one the most popular
+applications of genetic programming (GP) and an
+attractive alternative to the standard deterministic
+regression approaches due to its flexibility in
+generating free-form mathematical models from observed
+data without any domain knowledge. However, GP suffers
+from various issues hindering the applicability of the
+technique to real-life problems. In this paper, we show
+that a hybrid deterministic regression (DR)/genetic
+programming based symbolic regression (GP-SR) algorithm
+outperforms GP-SR alone on a brain imaging dataset.},
+   author = {Ilknur Icke and Nicholas A. Allgaier and Christopher M. Danforth and Robert A. Whelan and Hugh P. Garavan and Joshua C. Bongard},
+   doi = {10.1007/978-1-4939-0375-7_9},
+   pages = {155-173},
+   title = {A Deterministic and Symbolic Regression Hybrid Applied to Resting-State fMRI Data},
+   url = {http://link.springer.com/10.1007/978-1-4939-0375-7_9},
+   year = {2014},
+}
+@article{Schmidt2009,
+   author = {Michael Schmidt and Hod Lipson},
+   doi = {10.1126/science.1165893},
+   issn = {0036-8075},
+   issue = {5923},
+   journal = {Science},
+   month = {4},
+   title = {Distilling Free-Form Natural Laws from Experimental Data},
+   volume = {324},
+   year = {2009},
+}
+@article{Khritankov2021,
+   abstract = {In this paper we explore the challenges of automating experiments in data science. We propose an extensible experiment model as a foundation for integration of different open source tools for running research experiments. We implement our approach in a prototype open source MLDev software package and evaluate it in a series of experiments yielding promising results. Comparison with other state-of-the-art tools signifies novelty of our approach.},
+   author = {Anton Khritankov and Nikita Pershin and Nikita Ukhov and Artem Ukhov},
+   month = {7},
+   title = {MLDev: Data Science Experiment Automation and Reproducibility Software},
+   year = {2021},
+}
+
+@article{Rao1998,
+   author = {J. R. Lakshmana Rao},
+   doi = {10.1007/bf02838710},
+   issn = {0971-8044},
+   issue = {11},
+   journal = {Resonance},
+   title = {Scientific “Laws”, “Hypotheses” and “Theories”},
+   volume = {3},
+   year = {1998},
+}
+
+@article{Goncalves2016,
+   abstract = {In this note we provide a concise report on the complexity of the causal ordering problem, originally introduced by Simon to reason about causal dependencies implicit in systems of mathematical equations. We show that Simon's classical algorithm to infer causal ordering is NP-Hard—an intractability previously guessed but never proven. We present then a detailed account based on Nayak's suggested algorithmic solution (the best available), which is dominated by computing transitive closure—bounded in time by O(|V|⋅|S|), where S(E,V) is the input system structure composed of a set E of equations over a set V of variables with number of variable appearances (density) |S|. We also comment on the potential of causal ordering for emerging applications in large-scale hypothesis management and analytics.},
+   author = {Bernardo Gonçalves and Fabio Porto},
+   doi = {10.1016/j.artint.2016.06.004},
+   issn = {00043702},
+   journal = {Artificial Intelligence},
+   title = {A note on the complexity of the causal ordering problem},
+   volume = {238},
+   year = {2016},
+}
+
+
+@misc{Stanbrough2022,
+  title = {{Hypotheses}. Physics at BHS},
+  howpublished = {\url{http://www.batesville.k12.in.us/physics/phynet/aboutscience/hypotheses.html}},
+  author = {JL Stanbrough},
+  note = {Accessed: 2022-02-16}
+}
+
+@misc{Woodward2011,
+  title = {{Scientific Explanation}. The Stanford Encyclopedia of Philosophy},
+  howpublished = {\url{http://plato.stanford.edu/archives/win2011/entries/scientific-explanation/}},
+  author = {James Woodward},
+  note = {Accessed: 2022-02-16}
+}
+
+@misc{Bartha2013,
+  title = {{Analogy and Analogical Reasoning}. The Stanford Encyclopedia of Philosophy},
+  howpublished = {\url{http://plato.stanford.edu/archives/fall2013/entries/reasoning-analogy/}},
+  author = {Paul Bartha},
+  note = {Accessed: 2022-02-16}
+}
+
+@inproceedings{Khritankov2022,
+   author = {Anton Khritankov and Nikita Pershin and Nikita Ukhov and Artem Ukhov},
+   journal = {International Conference on Data Analytics and Management in Data Intensive Domains},
+   pages = {3-18},
+   title = {MLDev: Data Science Experiment Automation and Reproducibility Software},
+   year = {2022},
+}
+@article{Zaharia2018,
+   abstract = {Machine learning development creates multiple new challenges that are not present in a traditional software development lifecycle. These include keeping track of the myriad inputs to an ML application (e.g., data versions, code and tuning parameters), reproducing results, and production deployment. In this paper, we summarize these challenges from our experience with Databricks customers, and describe MLflow, an open source platform we recently launched to streamline the machine learning lifecycle. MLflow covers three key challenges: experimentation, reproducibility, and model deployment, using generic APIs that work with any ML library, algorithm and programming language. The project has a rapidly growing open source community, with over 50 contributors since its launch in June 2018.},
+   author = {Matei Zaharia and Andrew Chen and Aaron Davidson and Ali Ghodsi and Sue Ann Hong and Andy Konwinski and Siddharth Murching and Tomas Nykodym and Paul Ogilvie and Mani Parkhe and Fen Xie and Corey Zumar},
+   journal = {Bulletin of the IEEE Computer Society Technical Committee on Data Engineering},
+   title = {Accelerating the Machine Learning Lifecycle with MLflow},
+   year = {2018},
+}
+@inproceedings{Luo2021,
+   abstract = {With the ever-increasing adoption of machine learning for data analytics, maintaining a machine learning pipeline is becoming more complex as both the datasets and trained models evolve with time. In a collaborative environment, the changes and updates due to pipeline evolution often cause cumbersome coordination and maintenance work, raising the costs and making it hard to use. Existing solutions, unfortunately, do not address the version evolution problem, especially in a collaborative environment where non-linear version control semantics are necessary to isolate operations made by different user roles. The lack of version control semantics also incurs unnecessary storage consumption and lowers efficiency due to data duplication and repeated data pre-processing, which are avoidable.In this paper, we identify two main challenges that arise during the deployment of machine learning pipelines, and address them with the design of versioning for an end-to-end analytics system MLCask. The system supports multiple user roles with the ability to perform Git-like branching and merging operations in the context of the machine learning pipelines. We define and accelerate the metric-driven merge operation by pruning the pipeline search tree using reusable history records and pipeline compatibility information. Further, we design and implement the prioritized pipeline search, which gives preference to the pipelines that probably yield better performance. The effectiveness of MLCask is evaluated through an extensive study over several real-world deployment cases. The performance evaluation shows that the proposed merge operation is up to 7.8x faster and saves up to 11.9x storage space than the baseline method that does not utilize history records.},
+   author = {Zhaojing Luo and Sai Ho Yeung and Meihui Zhang and Kaiping Zheng and Lei Zhu and Gang Chen and Feiyi Fan and Qian Lin and Kee Yuan Ngiam and Beng Chin Ooi},
+   doi = {10.1109/ICDE51399.2021.00146},
+   issn = {10844627},
+   journal = {Proceedings - International Conference on Data Engineering},
+   title = {MLCask: Efficient management of component evolution in collaborative data analytics pipelines},
+   volume = {2021-April},
+   year = {2021},
+}
+
+@misc{Dagster2022,
+  title = {Dagster, An Orchestration Platform for the Development, Production, and Observation of Data Assets},
+  howpublished = {\url{ https://github.com/dagster-io/dagster}},
+  note = {Accessed: 2022-11-03}
+}
+
+@misc{HDP2021,
+  title = {Hortonworks Data Platform},
+  howpublished = {\url{ https://docs.cloudera.com/HDPDocuments/HDP3/HDP-3.1.0/release-notes/content/relnotes.html}},
+  note = {Accessed: 2021-02-03}
+}
+
+@book{nickles1980scientific,
+  title={Scientific discovery: Case studies},
+  author={Nickles, Thomas and others},
+  volume={2},
+  year={1980},
+  publisher={Taylor \& Francis}
+}
+
+@misc{Schickore2014,
+  title = {{Scientific Discovery}. The Stanford Encyclopedia of Philosophy},
+  howpublished = {\url{http://plato.stanford.edu/archives/spr2014/entries/scientific-discovery/}},
+  author = {Jutta	Schickore},
+  note = {Accessed: 2022-02-16}
+}
+
+@misc{weber2014,
+  title = {{Experiment in Biology}. The Stanford Encyclopedia of Philosophy},
+  howpublished = {\url{http://plato.stanford.edu/archives/fall2014/entries/biology-experiment/}},
+  author = {Marcel Weber},
+  note = {Accessed: 2022-12-12}
+}
+
+@misc{hawthorne2021,
+  title = {{Inductive Logic}. The Stanford Encyclopedia of Philosophy (Spring 2021 Edition)},
+  howpublished = {\url{https://plato.stanford.edu/archives/spr2021/entries/logic-inductive/}},
+  author = {James Hawthorne},
+  note = {Accessed: 2022-12-12}
+}
+
+@misc{porto2013,
+  title = {{Big Data in Astronomy. The LIneA-DEXL case}. Presentation at the EMC Summer School on BIG DATA – NCE/UFRJ},
+  howpublished = {\url{http://www.slideshare.net/fabiomporto/emc-2013-big-data-in-astronomy}},
+  author = {Fabio Porto},
+  note = {Accessed: 2022-12-12}
+}
+
+@inproceedings{porto2012scientific,
+  title={A scientific hypothesis conceptual model},
+  author={Porto, Fabio and C Moura, Ana Maria de and Gon{\c{c}}alves, Bernardo and Costa, Ramon and Spaccapietra, Stefano},
+  booktitle={International Conference on Conceptual Modeling},
+  pages={101--110},
+  year={2012},
+  organization={Springer}
+}
+
+@article{asgharbeygi2006inductive,
+  title={Inductive revision of quantitative process models},
+  author={Asgharbeygi, Nima and Langley, Pat and Bay, Stephen and Arrigo, Kevin},
+  journal={Ecological modelling},
+  volume={194},
+  number={1-3},
+  pages={70--79},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@inproceedings{tran2005knowledge,
+  title={Knowledge-based integrative framework for hypothesis formation in biochemical networks},
+  author={Tran, Nam and Baral, Chitta and Nagaraj, Vinay J and Joshi, Lokesh},
+  booktitle={International Workshop on Data Integration in the Life Sciences},
+  pages={121--136},
+  year={2005},
+  organization={Springer}
+}
+
+@book{field2013discovering,
+  title={Discovering statistics using IBM SPSS statistics},
+  author={Field, Andy},
+  year={2013},
+  publisher={sage}
+}
+
+@book{ivezic2019statistics,
+  title={Statistics, data mining, and machine learning in astronomy: A practical python guide for the analysis of survey data},
+  author={Ivezi{\'c}, {\v{Z}}eljko and Connolly, Andrew J and VanderPlas, Jacob T and Gray, Alexander},
+  year={2019},
+  publisher={Princeton University Press}
+}
+
+@book{wagner2019using,
+  title={Using IBM{\textregistered} SPSS{\textregistered} statistics for research methods and social science statistics},
+  author={Wagner III, William E},
+  year={2019},
+  publisher={Sage Publications}
+}
+
+@book{sivia2006data,
+  title={Data analysis: a Bayesian tutorial},
+  author={Sivia, Devinderjit and Skilling, John},
+  year={2006},
+  publisher={OUP Oxford}
+}
+
+@article{march2011should,
+  title={Should we doubt the cosmological constant?},
+  author={March, MC and Starkman, GD and Trotta, R and Vaudrevange, PM},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={410},
+  number={4},
+  pages={2488--2496},
+  year={2011},
+  publisher={The Royal Astronomical Society}
+}
+
+@article{rouder2009bayesian,
+  title={Bayesian t tests for accepting and rejecting the null hypothesis},
+  author={Rouder, Jeffrey N and Speckman, Paul L and Sun, Dongchu and Morey, Richard D and Iverson, Geoffrey},
+  journal={Psychonomic bulletin \& review},
+  volume={16},
+  number={2},
+  pages={225--237},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{pham2019new,
+  title={A new criterion for model selection},
+  author={Pham, Hoang},
+  journal={Mathematics},
+  volume={7},
+  number={12},
+  pages={1215},
+  year={2019},
+  publisher={MDPI}
+}
+
+@book{pham2007system,
+  title={System software reliability},
+  author={Pham, Hoang},
+  year={2007},
+  publisher={Springer Science \& Business Media}
+}
+
+@book{rencher2008linear,
+  title={Linear models in statistics},
+  author={Rencher, Alvin C and Schaalje, G Bruce},
+  year={2008},
+  publisher={John Wiley \& Sons}
+}
+
+@article{mahmoudi2018testing,
+  title={Testing the equality of two independent regression models},
+  author={Mahmoudi, Mohammad Reza and Maleki, Mohsen and Pak, Abbas},
+  journal={Communications in Statistics-Theory and Methods},
+  volume={47},
+  number={12},
+  pages={2919--2926},
+  year={2018},
+  publisher={Taylor \& Francis}
+}
+
+@article{akaike1974new,
+  title={A new look at the statistical model identification},
+  author={Akaike, Hirotugu},
+  journal={IEEE transactions on automatic control},
+  volume={19},
+  number={6},
+  pages={716--723},
+  year={1974},
+  publisher={Ieee}
+}
+
+@article{liddle2007information,
+  title={Information criteria for astrophysical model selection},
+  author={Liddle, Andrew R},
+  journal={Monthly Notices of the Royal Astronomical Society: Letters},
+  volume={377},
+  number={1},
+  pages={L74--L78},
+  year={2007},
+  publisher={Blackwell Science Ltd Oxford, UK}
+}
+
+@book{giraud2021introduction,
+  title={Introduction to high-dimensional statistics},
+  author={Giraud, Christophe},
+  year={2021},
+  publisher={Chapman and Hall/CRC}
+}
+
+@article{wang2018direct,
+  title={Direct estimation of differences in causal graphs},
+  author={Wang, Yuhao and Squires, Chandler and Belyaeva, Anastasiya and Uhler, Caroline},
+  journal={Advances in neural information processing systems},
+  volume={31},
+  year={2018}
+}
+
+@article{starkman2008introducing,
+  title={Introducing doubt in Bayesian model comparison},
+  author={Starkman, Glenn D and Trotta, Roberto and Vaudrevange, Pascal M},
+  journal={arXiv preprint arXiv:0811.2415},
+  year={2008}
+}
+
+@book{march2013advanced,
+  title={Advanced statistical methods for astrophysical probes of cosmology},
+  author={March, Marisa Cristina},
+  year={2013},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{breiman2001statistical,
+  title={Statistical modeling: The two cultures (with comments and a rejoinder by the author)},
+  author={Breiman, Leo},
+  journal={Statistical science},
+  volume={16},
+  number={3},
+  pages={199--231},
+  year={2001},
+  publisher={Institute of Mathematical Statistics}
+}
+
+@book{barber2012bayesian,
+  title={Bayesian reasoning and machine learning},
+  author={Barber, David},
+  year={2012},
+  publisher={Cambridge University Press}
+}
+
+@book{hastie2009elements,
+  title={The elements of statistical learning: data mining, inference, and prediction},
+  author={Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome H and Friedman, Jerome H},
+  volume={2},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{ferrucci2010building,
+  title={Building Watson: An overview of the DeepQA project},
+  author={Ferrucci, David and Brown, Eric and Chu-Carroll, Jennifer and Fan, James and Gondek, David and Kalyanpur, Aditya A and Lally, Adam and Murdock, J William and Nyberg, Eric and Prager, John and others},
+  journal={AI magazine},
+  volume={31},
+  number={3},
+  pages={59--79},
+  year={2010}
+}
+
+@inproceedings{dredze2008confidence,
+  title={Confidence-weighted linear classification},
+  author={Dredze, Mark and Crammer, Koby and Pereira, Fernando},
+  booktitle={Proceedings of the 25th international conference on Machine learning},
+  pages={264--271},
+  year={2008}
+}
+
+@article{racunas2004hybrow,
+  title={HyBrow: a prototype system for computer-aided hypothesis evaluation},
+  author={Racunas, Stephen A and Shah, NH and Albert, Istv{\'a}n and Fedoroff, Nina V},
+  journal={Bioinformatics},
+  volume={20},
+  number={suppl\_1},
+  pages={i257--i264},
+  year={2004},
+  publisher={Oxford University Press}
+}
+
+@inproceedings{soldatova2011representation,
+  title={Representation of research hypotheses},
+  author={Soldatova, Larisa N and Rzhetsky, Andrey},
+  booktitle={Journal of biomedical semantics},
+  volume={2},
+  number={2},
+  pages={1--15},
+  year={2011},
+  organization={Springer}
+}
+
+@inproceedings{callahan2011hyque,
+  title={HyQue: evaluating hypotheses using Semantic Web technologies},
+  author={Callahan, Alison and Dumontier, Michel and Shah, Nigam H},
+  booktitle={Journal of biomedical semantics},
+  volume={2},
+  number={2},
+  pages={1--17},
+  year={2011},
+  organization={BioMed Central}
+}
+
+@article{gao2006swan,
+  title={SWAN: A distributed knowledge infrastructure for Alzheimer disease research},
+  author={Gao, Yong and Kinoshita, June and Wu, Elizabeth and Miller, Eric and Lee, Ryan and Seaborne, Andy and Cayzer, Steve and Clark, Tim},
+  journal={Journal of Web Semantics},
+  volume={4},
+  number={3},
+  pages={222--228},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{soldatova2006ontology,
+  title={An ontology of scientific experiments},
+  author={Soldatova, Larisa N and King, Ross D},
+  journal={Journal of the Royal Society Interface},
+  volume={3},
+  number={11},
+  pages={795--803},
+  year={2006},
+  publisher={The Royal Society London}
+}
+
+@inproceedings{brinkman2010modeling,
+  title={Modeling biomedical experimental processes with OBI},
+  author={Brinkman, Ryan R and Courtot, M{\'e}lanie and Derom, Dirk and Fostel, Jennifer M and He, Yongqun and Lord, Phillip and Malone, James and Parkinson, Helen and Peters, Bjoern and Rocca-Serra, Philippe and others},
+  booktitle={Journal of biomedical semantics},
+  volume={1},
+  number={1},
+  pages={1--11},
+  year={2010},
+  organization={BioMed Central}
+}
+
+@incollection{simon1977causal,
+  title={Causal ordering and identifiability},
+  author={Simon, Herbert A},
+  booktitle={Models of Discovery},
+  pages={53--80},
+  year={1977},
+  publisher={Springer}
+}
+
+@article{dash2008note,
+  title={A note on the correctness of the causal ordering algorithm},
+  author={Dash, Denver and Druzdzel, Marek J},
+  journal={Artificial Intelligence},
+  volume={172},
+  number={15},
+  pages={1800--1808},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{nayak1994causal,
+  title={Causal approximations},
+  author={Nayak, P Pandurang},
+  journal={Artificial Intelligence},
+  volume={70},
+  number={1-2},
+  pages={277--334},
+  year={1994},
+  publisher={Elsevier}
+}
+
+@inproceedings{demchenko2013addressing,
+  title={Addressing big data issues in scientific data infrastructure},
+  author={Demchenko, Yuri and Grosso, Paola and De Laat, Cees and Membrey, Peter},
+  booktitle={2013 International conference on collaboration technologies and systems (CTS)},
+  pages={48--55},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{schales2015fcce,
+  title={FCCE: highly scalable distributed feature collection and correlation engine for low latency big data analytics},
+  author={Schales, Douglas L and Hu, Xin and Jang, Jiyong and Sailer, Reiner and Stoecklin, Marc Ph and Wang, Ting},
+  booktitle={2015 IEEE 31st International Conference on Data Engineering},
+  pages={1316--1327},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{spangler2014automated,
+  title={Automated hypothesis generation based on mining scientific literature},
+  author={Spangler, Scott and Wilkins, Angela D and Bachman, Benjamin J and Nagarajan, Meena and Dayaram, Tajhal and Haas, Peter and Regenbogen, Sam and Pickering, Curtis R and Comer, Austin and Myers, Jeffrey N and others},
+  booktitle={Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining},
+  pages={1877--1886},
+  year={2014}
+}
+
+@article{zhou2003learning,
+  title={Learning with local and global consistency},
+  author={Zhou, Dengyong and Bousquet, Olivier and Lal, Thomas and Weston, Jason and Sch{\"o}lkopf, Bernhard},
+  journal={Advances in neural information processing systems},
+  volume={16},
+  year={2003}
+}
+
+@article{king2009automation,
+  title={The automation of science},
+  author={King, Ross D and Rowland, Jem and Oliver, Stephen G and Young, Michael and Aubrey, Wayne and Byrne, Emma and Liakata, Maria and Markham, Magdalena and Pir, Pinar and Soldatova, Larisa N and others},
+  journal={Science},
+  volume={324},
+  number={5923},
+  pages={85--89},
+  year={2009},
+  publisher={American Association for the Advancement of Science}
+}
+
+@article{sparkes2010towards,
+  title={Towards robot scientists for autonomous scientific discovery},
+  author={Sparkes, Andrew and Aubrey, Wayne and Byrne, Emma and Clare, Amanda and Khan, Muhammed N and Liakata, Maria and Markham, Magdalena and Rowland, Jem and Soldatova, Larisa N and Whelan, Kenneth E and others},
+  journal={Automated Experimentation},
+  volume={2},
+  number={1},
+  pages={1--11},
+  year={2010},
+  publisher={Springer}
+}
+
+@article{king2004functional,
+  title={Functional genomic hypothesis generation and experimentation by a robot scientist},
+  author={King, Ross D and Whelan, Kenneth E and Jones, Ffion M and Reiser, Philip GK and Bryant, Christopher H and Muggleton, Stephen H and Kell, Douglas B and Oliver, Stephen G},
+  journal={Nature},
+  volume={427},
+  number={6971},
+  pages={247--252},
+  year={2004},
+  publisher={Nature Publishing Group}
+}
+
+@article{qi2010ontology,
+  title={An ontology for description of drug discovery investigations},
+  author={Qi, Da and King, Ross D and Hopkins, Andrew L and Bickerton, G Richard J and Soldatova, Larisa N},
+  journal={Journal of integrative bioinformatics},
+  volume={7},
+  number={3},
+  pages={156--168},
+  year={2010},
+  publisher={De Gruyter}
+}
+
+@inproceedings{huang2009maybms,
+  title={MayBMS: a probabilistic database management system},
+  author={Huang, Jiewen and Antova, Lyublena and Koch, Christoph and Olteanu, Dan},
+  booktitle={Proceedings of the 2009 ACM SIGMOD International Conference on Management of data},
+  pages={1071--1074},
+  year={2009}
+}
+
+@article{GoncalvesP14,
+  author    = {Bernardo Gon{\c{c}}alves and
+               F{\'{a}}bio Porto},
+  title     = {$\Upsilon$-DB: Managing scientific hypotheses
+               as uncertain data},
+  journal   = {CoRR},
+  volume    = {abs/1405.4607},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1405.4607},
+  eprinttype = {arXiv},
+  eprint    = {1405.4607},
+  timestamp = {Fri, 04 Mar 2022 14:14:41 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/GoncalvesP14.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Duggan2015,
+   author = {Duggan, Jennie and Brodie, Michael L},
+   issue = {1-3},
+   journal = {7th Biennial Conference on Innovative Data Systems Research.},
+   title = {Hephaestus: Data reuse for accelerating scientific discovery},
+   pages = {Paper 29. 12 p},
+   year = {2015},
+   url       = {http://users.eecs.northwestern.edu/∼jennie/pubs/hephaestus full.pdf},
+   city = {Asilomar, CA, USA},
+}
+
+
+@article{borthakur2007hadoop,
+  title={The hadoop distributed file system: Architecture and design},
+  author={Borthakur, Dhruba},
+  journal={Hadoop Project Website},
+  volume={11},
+  number={2007},
+  pages={21},
+  year={2007}
+}
+
+@inproceedings{zaharia2010spark,
+  title={Spark: Cluster computing with working sets},
+  author={Zaharia, Matei and Chowdhury, Mosharaf and Franklin, Michael J and Shenker, Scott and Stoica, Ion},
+  booktitle={2nd USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 10)},
+  year={2010}
+}
+
+@misc{hadoop,
+  author = {{Apache Software Foundation}},
+  title = {Hadoop},
+  url = {https://hadoop.apache.org},
+  version = {2.7.2},
+  date = {2020-02-19},
+}
+
+@article{anderson2015docker,
+  title={Docker [software engineering]},
+  author={Anderson, Charles},
+  journal={Ieee Software},
+  volume={32},
+  number={3},
+  pages={102--c3},
+  year={2015},
+  publisher={IEEE}
+}
+
+@article{czekaj2014besanccon,
+  title={The Besan{\c{c}}on Galaxy model renewed-I. Constraints on the local star formation history from Tycho data},
+  author={Czekaj, MA and Robin, AC and Figueras, F and Luri, X and Haywood, M},
+  journal={Astronomy \& Astrophysics},
+  volume={564},
+  pages={A102},
+  year={2014},
+  publisher={EDP Sciences}
+}
+
+@article{robin2003synthetic,
+  title={A synthetic view on structure and evolution of the Milky Way},
+  author={Robin, Annie C and Reyl{\'e}, C and Derri{\`e}re, S and Picaud, S},
+  journal={Astronomy \& Astrophysics},
+  volume={409},
+  number={2},
+  pages={523--540},
+  year={2003},
+  publisher={EDP Sciences}
+}
+
+@article{czekaj2012galaxy,
+  title={Galaxy evolution: A new version of the Besan{\c{c}}on Galaxy Model constrained with Tycho data},
+  author={Czekaj, Maria A},
+  year={2012},
+  publisher={Universitat de Barcelona}
+}
+
+@article{biswal2010toward,
+  title={Toward discovery science of human brain function},
+  author={Biswal, Bharat B and Mennes, Maarten and Zuo, Xi-Nian and Gohel, Suril and Kelly, Clare and Smith, Steve M and Beckmann, Christian F and Adelstein, Jonathan S and Buckner, Randy L and Colcombe, Stan and others},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={107},
+  number={10},
+  pages={4734--4739},
+  year={2010},
+  publisher={National Acad Sciences}
+}
+
+@article{craddock2013imaging,
+  title={Imaging human connectomes at the macroscale},
+  author={Craddock, R Cameron and Jbabdi, Saad and Yan, Chao-Gan and Vogelstein, Joshua T and Castellanos, F Xavier and Di Martino, Adriana and Kelly, Clare and Heberlein, Keith and Colcombe, Stan and Milham, Michael P},
+  journal={Nature methods},
+  volume={10},
+  number={6},
+  pages={524--539},
+  year={2013},
+  publisher={Nature Publishing Group}
+}
+
+@article{ginestet2017hypothesis,
+  title={Hypothesis testing for network data in functional neuroimaging},
+  author={Ginestet, Cedric E and Li, Jun and Balachandran, Prakash and Rosenberg, Steven and Kolaczyk, Eric D},
+  journal={The Annals of Applied Statistics},
+  pages={725--750},
+  year={2017},
+  publisher={JSTOR}
+}
+
+@article{ginestet2014statistical,
+  title={Statistical network analysis for functional MRI: summary networks and group comparisons},
+  author={Ginestet, Cedric E and Fournel, Arnaud P and Simmons, Andrew},
+  journal={Frontiers in computational neuroscience},
+  volume={8},
+  pages={51},
+  year={2014},
+  publisher={Frontiers Media SA}
+}
+
+@article{yan2013standardizing,
+  title={Standardizing the intrinsic brain: towards robust measurement of inter-individual variation in 1000 functional connectomes},
+  author={Yan, Chao-Gan and Craddock, R Cameron and Zuo, Xi-Nian and Zang, Yu-Feng and Milham, Michael P},
+  journal={Neuroimage},
+  volume={80},
+  pages={246--262},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@inproceedings{arslan2015multi,
+  title={Multi-level parcellation of the cerebral cortex using resting-state fMRI},
+  author={Arslan, Salim and Rueckert, Daniel},
+  booktitle={International Conference on Medical Image Computing and Computer-assisted Intervention},
+  pages={47--54},
+  year={2015},
+  organization={Springer}
+}
+
+@article{blumensath2013spatially,
+  title={Spatially constrained hierarchical parcellation of the brain with resting-state fMRI},
+  author={Blumensath, Thomas and Jbabdi, Saad and Glasser, Matthew F and Van Essen, David C and Ugurbil, Kamil and Behrens, Timothy EJ and Smith, Stephen M},
+  journal={Neuroimage},
+  volume={76},
+  pages={313--324},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{van2008normalized,
+  title={Normalized cut group clustering of resting-state FMRI data},
+  author={Van Den Heuvel, Martijn and Mandl, Rene and Hulshoff Pol, Hilleke},
+  journal={PloS one},
+  volume={3},
+  number={4},
+  pages={e2001},
+  year={2008},
+  publisher={Public Library of Science San Francisco, USA}
+}
+
+@article{calhoun2001method,
+  title={A method for making group inferences from functional MRI data using independent component analysis},
+  author={Calhoun, Vince D and Adali, Tulay and Pearlson, Godfrey D and Pekar, James J},
+  journal={Human brain mapping},
+  volume={14},
+  number={3},
+  pages={140--151},
+  year={2001},
+  publisher={Wiley Online Library}
+}
+
+@article{rachakonda2016memory,
+  title={Memory efficient PCA methods for large group ICA},
+  author={Rachakonda, Srinivas and Silva, Rogers F and Liu, Jingyu and Calhoun, Vince D},
+  journal={Frontiers in neuroscience},
+  volume={10},
+  pages={17},
+  year={2016},
+  publisher={Frontiers Media SA}
+}
+
+@article{desikan2006automated,
+  title={An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest},
+  author={Desikan, Rahul S and S{\'e}gonne, Florent and Fischl, Bruce and Quinn, Brian T and Dickerson, Bradford C and Blacker, Deborah and Buckner, Randy L and Dale, Anders M and Maguire, R Paul and Hyman, Bradley T and others},
+  journal={Neuroimage},
+  volume={31},
+  number={3},
+  pages={968--980},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{tzourio2002automated,
+  title={Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain},
+  author={Tzourio-Mazoyer, Nathalie and Landeau, Brigitte and Papathanassiou, Dimitri and Crivello, Fabrice and Etard, Octave and Delcroix, Nicolas and Mazoyer, Bernard and Joliot, Marc},
+  journal={Neuroimage},
+  volume={15},
+  number={1},
+  pages={273--289},
+  year={2002},
+  publisher={Elsevier}
+}
+
+@article{fischl2004automatically,
+  title={Automatically parcellating the human cerebral cortex},
+  author={Fischl, Bruce and Van Der Kouwe, Andr{\'e} and Destrieux, Christophe and Halgren, Eric and S{\'e}gonne, Florent and Salat, David H and Busa, Evelina and Seidman, Larry J and Goldstein, Jill and Kennedy, David and others},
+  journal={Cerebral cortex},
+  volume={14},
+  number={1},
+  pages={11--22},
+  year={2004},
+  publisher={Oxford University Press}
+}
+
+@article{soch2017improve,
+  title={How to improve parameter estimates in GLM-based fMRI data analysis: cross-validated Bayesian model averaging},
+  author={Soch, Joram and Meyer, Achim Pascal and Haynes, John-Dylan and Allefeld, Carsten},
+  journal={Neuroimage},
+  volume={158},
+  pages={186--195},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{eklund2017bayesian,
+  title={A Bayesian heteroscedastic GLM with application to fMRI data with motion spikes},
+  author={Eklund, Anders and Lindquist, Martin A and Villani, Mattias},
+  journal={NeuroImage},
+  volume={155},
+  pages={354--369},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{lahaye2003functional,
+  title={Functional connectivity: studying nonlinear, delayed interactions between BOLD signals},
+  author={Lahaye, Pierre-Jean and Poline, Jean-Baptiste and Flandin, Guillaume and Dodel, Silke and Garnero, Line},
+  journal={NeuroImage},
+  volume={20},
+  number={2},
+  pages={962--974},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@inproceedings{karanikolas2016multi,
+  title={Multi-kernel based nonlinear models for connectivity identification of brain networks},
+  author={Karanikolas, Georgios V and Giannakis, Georgios B and Slavakis, Konstantinos and Leahy, Richard M},
+  booktitle={2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6315--6319},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{allgaier2015nonlinear,
+  title={Nonlinear functional mapping of the human brain},
+  author={Allgaier, Nicholas and Banaschewski, Tobias and Barker, Gareth and Bokde, Arun LW and Bongard, Josh C and Bromberg, Uli and B{\"u}chel, Christian and Cattrell, Anna and Conrod, Patricia J and Danforth, Christopher M and others},
+  journal={arXiv preprint arXiv:1510.03765},
+  year={2015}
+}
+
+@article{koch2007gender,
+  title={Gender differences in the cognitive control of emotion: An fMRI study},
+  author={Koch, Kathrin and Pauly, Katharina and Kellermann, Thilo and Seiferth, Nina Y and Reske, Martina and Backes, Volker and St{\"o}cker, Tony and Shah, N Jon and Amunts, Katrin and Kircher, Tilo and others},
+  journal={Neuropsychologia},
+  volume={45},
+  number={12},
+  pages={2744--2754},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{xu2015gender,
+  title={Gender differences in cerebral regional homogeneity of adult healthy volunteers: a resting-state FMRI study},
+  author={Xu, Chunsheng and Li, Chuanfu and Wu, Hongli and Wu, Yuanyuan and Hu, Sheng and Zhu, Yifang and Zhang, Wei and Wang, Linying and Zhu, Senhua and Liu, Junping and others},
+  journal={BioMed research international},
+  volume={2015},
+  year={2015},
+  publisher={Hindawi}
+}
+
+@article{zang2004regional,
+  title={Regional homogeneity approach to fMRI data analysis},
+  author={Zang, Yufeng and Jiang, Tianzi and Lu, Yingli and He, Yong and Tian, Lixia},
+  journal={Neuroimage},
+  volume={22},
+  number={1},
+  pages={394--400},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{marcus2007extensible,
+  title={The extensible neuroimaging archive toolkit},
+  author={Marcus, Daniel S and Olsen, Timothy R and Ramaratnam, Mohana and Buckner, Randy L},
+  journal={Neuroinformatics},
+  volume={5},
+  number={1},
+  pages={11--33},
+  year={2007},
+  publisher={Springer}
+}
+
+@book{brun2006manifold,
+  title={Manifold learning and representations for image analysis and visualization},
+  author={Brun, Anders},
+  year={2006},
+  publisher={Department of Biomedical Engineering, Link{\"o}pings universitet}
+}
+
+@article{abraham2014machine,
+  title={Machine learning for neuroimaging with scikit-learn},
+  author={Abraham, Alexandre and Pedregosa, Fabian and Eickenberg, Michael and Gervais, Philippe and Mueller, Andreas and Kossaifi, Jean and Gramfort, Alexandre and Thirion, Bertrand and Varoquaux, Ga{\"e}l},
+  journal={Frontiers in neuroinformatics},
+  pages={14},
+  year={2014},
+  publisher={Frontiers}
+}
+
+@inproceedings{rokem2009nitime,
+  title={Nitime: time-series analysis for neuroimaging data},
+  author={Rokem, Ariel and Trumpis, M and Perez, F},
+  booktitle={Proceedings of the 8th Python in Science Conference},
+  pages={68--75},
+  year={2009}
+}
+
+@article{gorgolewski2011nipype,
+  title={Nipype: a flexible, lightweight and extensible neuroimaging data processing framework in python},
+  author={Gorgolewski, Krzysztof and Burns, Christopher D and Madison, Cindee and Clark, Dav and Halchenko, Yaroslav O and Waskom, Michael L and Ghosh, Satrajit S},
+  journal={Frontiers in neuroinformatics},
+  pages={13},
+  year={2011},
+  publisher={Frontiers}
+}

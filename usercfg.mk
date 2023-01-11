@@ -3,7 +3,7 @@
 
 # MKRC ?= latexmkrc # config file
 # SOURCE ?= dissertation # source .tex file
-# BACKEND ?= -pdfxe
+BACKEND ?= -pdflua
 ## -pdf=pdflatex
 ## -pdfdvi=pdflatex with dvi
 ## -pdfps=pdflatex with ps
@@ -12,9 +12,9 @@
 ## -pdflua=lualatex with dvi  (faster than -lualatex)
 ## -lualatex=lualatex without dvi
 
-# DRAFTON ?= # 1=on;0=off
+# DRAFTON ?= 1# 1=on;0=off
 # SHOWMARKUP ?= # 1=on;0=off
-# FONTFAMILY ?= # 0=CMU;1=MS fonts;2=Liberation fonts
+FONTFAMILY ?= 0# 0=CMU;1=MS fonts;2=Liberation fonts
 # ALTFONT ?= # 0=Computer Modern;1=pscyr;2=XCharter
 # USEBIBER ?= # 0=bibtex8;1=biber
 # USEFOOTCITE ?= # 0=no;1=yes
