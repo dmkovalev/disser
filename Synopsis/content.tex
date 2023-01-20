@@ -30,9 +30,11 @@
 исследований, проводимых в~рамках данной диссертационной работы,
 приводится обзор научной литературы по~изучаемой проблеме,
 формулируется цель, ставятся задачи работы, излагается научная новизна
-и практическая значимость представляемой работы. В~последующих главах
-сначала описывается общий принцип, позволяющий \dots, а~потом идёт
-апробация на частных примерах: \dots  и~\dots.
+и практическая значимость представляемой работы, приводятся положения, выносимые на защиту.. 
+
+% В~последующих главах
+% сначала описывается общий принцип, позволяющий \dots, а~потом идёт
+% апробация на частных примерах: \dots  и~\dots.
 
 
 \underline{\textbf{Первая глава}} посвящена \dots
@@ -65,7 +67,7 @@
 \verb!Synopsis/setup.tex! необходимо присвоить положительное значение
 счётчику \verb!\setcounter{usefootcite}{1}!. В таком случае ссылки на
 работы других авторов будут подстрочными.
-Изложенные в третьей главе результаты опубликованы в~\cite{vakbib1, vakbib2}.
+Изложенные в третьей главе результаты опубликованы в~\cite{kovalev2020multidisciplinary,kovalev2020architecture}.
 Использование подстрочных ссылок внутри таблиц может вызывать проблемы.
 
 В \underline{\textbf{четвертой главе}} приведено описание
@@ -93,29 +95,35 @@
     %  * Если не соблюдать порядок "как для \printbibliography", нумерация в `\insertbiblioauthor` будет кривой.
     %  * Если цитировать каждый источник отдельной командой --- найти некоторые ошибки будет проще.
     %
-    %% authorvak
-    \nocite{vakbib1}%
-    \nocite{vakbib2}%
-    %
-    %% authorwos
-    \nocite{wosbib1}%
-    %
+    % authorvak
+    \nocite{kovalev2020multidisciplinary}%
+    \nocite{kovalev2020architecture}%
+    \nocite{tirikov2021methods}%
+    % %
+    % %% authorwos
+    % \nocite{wosbib1}%
+    % %
     %% authorscopus
-    \nocite{scbib1}%
-    %
-    %% authorpathent
-    \nocite{patbib1}%
+    \nocite{kalinichenko2015methods}%
+    \nocite{kovalev2017organization}%
+    \nocite{kovalev2017search}%
+    \nocite{kovalev2019constructing}%
+    \nocite{kovalev2019virtual}%
+    \nocite{kovalev2020methods}%
+    % %
+    % %% authorpathent
+    % \nocite{patbib1}%
     %
     %% authorprogram
     \nocite{progbib1}%
-    %
-    %% authorconf
-    \nocite{confbib1}%
-    \nocite{confbib2}%
-    %
-    %% authorother
-    \nocite{bib1}%
-    \nocite{bib2}%
+    % %
+    % %% authorconf
+    % \nocite{confbib1}%
+    % \nocite{confbib2}%
+    % %
+    % %% authorother
+    % \nocite{bib1}%
+    % \nocite{bib2}%
 
     \ifnumgreater{\value{usefootcite}}{0}{
         \begin{refcontext}[labelprefix={}]
