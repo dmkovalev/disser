@@ -16,7 +16,7 @@ BACKEND ?= -pdflua
 # SHOWMARKUP ?= # 1=on;0=off
 FONTFAMILY ?= 0# 0=CMU;1=MS fonts;2=Liberation fonts
 # ALTFONT ?= # 0=Computer Modern;1=pscyr;2=XCharter
-# USEBIBER ?= # 0=bibtex8;1=biber
+# USEBIBER ?= 1# 0=bibtex8;1=biber
 # USEFOOTCITE ?= 1# 0=no;1=yes
 BIBGROUPED ?= 1# 0=no;1=yes
 # IMGCOMPILE ?= # 1=on;0=off
